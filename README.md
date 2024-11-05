@@ -85,7 +85,8 @@ En el sector financiero la clusterización se utiliza para identificar patrones 
 2. El registro de datos de tenure no puede ser suficiente para aquellos clientes nuevos puesto que no cuentan con un comportamiento histórico.
 
 # Conclusiones y Recomendaciones
-Las variables del dataset permitieron realizar una segmentación de aquellos clientes que han adoptado hábitos de consumos más riesgosos. Dentro de las recomendaciones se deberia mejorar la gestión del riesgo y ajustar los límites de crédito.
+Las variables del dataset permitieron realizar una segmentación de aquellos clientes que han adoptado hábitos de consumos más riesgosos. 
+Dentro de las recomendaciones se deberia mejorar la gestión del riesgo para garantizar la rentabilidadad del banco y ajustar los límites de crédito permientiendo una mejor experiencia y salud financiera para los clientes.
 
 
 # Future Work
