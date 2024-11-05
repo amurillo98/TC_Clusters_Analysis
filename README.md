@@ -95,7 +95,7 @@ Las variables del dataset permitieron realizar una segmentación de aquellos cli
 Mencionen qué cosas adicionarían o probarían para mejorar el proyecto:
 1. Incluir nuevas variables al dataset que permitan conocer mas a profundidad al cliente y con registros históricos de al menos 2 años
 2. Variables que expliquen  una temporalidad estacional o cíclicos
-3. Varibales predictivas relacionadas con factores externos o temporales
+3. Variables predictivas relacionadas con factores externos o temporales
 
 
 
