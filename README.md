@@ -77,7 +77,7 @@ Cluster 2 muestra balances y límites de crédito moderados, con poca variabilid
 
 # Expliquen cómo implementarían el modelo en el negocio y justifíquenlo
 
-En el sector financiero la clusterización se utiliza para identificar patrones sospechosos de actividades fraudulentas, pudiendo agrupar las transacciones en base a criterios como la ubicación geográfica, la frecuencia y el monto, para detectar actividades anómalas en el uso de tarjetas de crédito. De igual manera, al segmentarlos en grupos homogéneos les facilita la creación de estrategias marketing específicas y dirigidas a cada segmento de clientes. Al aplicar estas tácticas, las empresas pueden aumentar su lealtad y retención de clientes.
+La segmentación a través de clusters permite a Banco BLUE identificar patrones de riesgo en sus clientes, agrupándolos en perfiles de bajo, moderado y alto riesgo de caer en default. Esta metodología facilita al banco una gestión más oportuna y precisa, permitiendo un enfoque proactivo con los clientes de perfil más delicado. Para estos clientes de alto riesgo, el banco puede ser más cauteloso en la asignación de límites de crédito, evitando posibles pérdidas. Por otro lado, para los clientes de bajo riesgo, Banco BLUE puede ofrecer límites de crédito más altos, aprovechando al máximo su perfil crediticio favorable. Este enfoque no solo optimiza la gestión del riesgo, sino que también permite al banco maximizar las oportunidades de negocio al ajustar sus estrategias según el perfil de cada segmento, asegurando una administración del crédito más eficiente y rentable.
 
 # Limitaciones
 
@@ -91,9 +91,10 @@ Se deberia mejorar la gestión del riesgo para garantizar la rentabilidadad del 
 
 # Future Work
 Mencionen qué cosas adicionarían o probarían para mejorar el proyecto:
-1. Incluir nuevas variables al dataset que permitan conocer mas a profundidad al cliente y con registros históricos de al menos 2 años
-2. Variables que expliquen  una temporalidad estacional o cíclicos
-3. Variables predictivas relacionadas con factores externos o temporales
+1. Verificar que las variables seleccionadas realmente aporten valor para diferenciar entre los perfiles de riesgo. Puede que algunas variables no sean relevantes o incluso generen ruido en los clusters.
+2. Considerar usar métodos como PCA (Análisis de Componentes Principales) o t-SNE para reducir la dimensionalidad. Esto ayuda a capturar la varianza más relevante y evitar que variables menos informativas afecten el   resultado de los clusters.
+3. Utilizar el escalado con otras variables númericas del modelo. 
+4. Enriquecer el modelo a través de datos externos relevantes, como indicadores macroeconómicos o historial de crédito de otras instituciones (siempre que sea conforme a las regulaciones de privacidad). Esto podría mejorar la precisión del perfil de riesgo y ofrecer una visión más completa de cada cliente.
 
 
 
