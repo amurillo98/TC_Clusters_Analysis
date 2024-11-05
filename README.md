@@ -50,10 +50,6 @@ Dos continuas por su relevancia e interés en el análisis:
 
 - 'PAYMENT_RATIO': Variable que permite calcular la proporción de pagos que están haciendo los usuarios frente a su balance. Así se entiende que mientras mayor es el ratio de signfica que los usuarios están siendo resposables con los pagos que les correponden y visceversa.
 
-# Procesamiento de Datos
-
-Se procedió a quitar la columna de identificación del cliente, ya que no contribuye al poder de predicción del modelo.
-
 
 ![imagen](https://github.com/user-attachments/assets/9f606504-e0c5-4416-8a2a-d6608c947f4a)
 
@@ -98,7 +94,8 @@ Las variables del dataset permitieron realizar una segmentación de aquellos cli
 # Future Work
 Mencionen qué cosas adicionarían o probarían para mejorar el proyecto:
 1. Incluir nuevas variables al dataset que permitan conocer mas a profundidad al cliente y con registros históricos de al menos 2 años
-2. 
+2. Variables que expliquen  una temporalidad estacional o cíclicos
+3. Varibales predictivas relacionadas con factores externos o temporales
 
 
 
