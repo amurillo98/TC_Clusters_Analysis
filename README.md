@@ -11,11 +11,11 @@ Dado este crecimiento, es esencial que las instituciones financieras analicen el
 
 # Metodología
 
+Se verifica que existen 313 valores nulos, se entiende que los campos están vacios porque el cliente no ha realizado pagos mínimos; por eso se decide poner en '0'. La otra variable "credit limit" solo contiene 1 campo vacío por lo que se decide reemplazar con'0' en ambos casos.
 ![imagen](https://github.com/user-attachments/assets/454121f4-c000-4fea-830c-5f69f455be47)
 
 
-Se verifica que existen 313 valores nulos, se entiende que los campos están vacios porque el cliente no ha realizado pagos mínimos; por eso se decide poner en '0'. La otra variable "credit limit" solo contiene 1 campo vacío por lo que se decide reemplazar con'0' en ambos casos.
-
+![imagen](https://github.com/user-attachments/assets/c6d076dd-baa9-4093-b6ef-61b63ca43370)
 
 Los histogramas previamente graficados muestran una distribución sesgada a la izquierda en las variables de "Balance", "Purchases", "Credit_limit", "Payments" y "Cash Advance", lo cual puede interpretarse como que la mayoría de usuarios realizan compras de pequeños valores por tanto su límite de crédito se concentra en valores pequeños, así mismo el pago de sus tarjetas.
 
@@ -23,9 +23,9 @@ Por otro lado la antiguedad de la tc "Tenure" es de un año, es decir, se entien
 
 Existe otro tipo de variables como "Purchase_Frequency" que se concentran en los extremos, es decir o no tienen casi frecuencia de compra o si compran frecuentemente (es de extremos - uno de los dos).
 
-![imagen](https://github.com/user-attachments/assets/c6d076dd-baa9-4093-b6ef-61b63ca43370)
 
 
+![imagen](https://github.com/user-attachments/assets/854f9950-a1a9-4659-981d-60c9e7fb9010)
 
 Se procedió a realizar un análisis de correlación entre las variables que contiene el dataset; sin embargo por la cantidad de variables existentes se hizo un filtro para seleccionar aquellas que pueden tener una mayor importancia en el análisis.
 
@@ -33,10 +33,8 @@ De esta forma resulta interesante destacar que la variable "Balance" tiene una c
 
 Existen también otro tipo de relaciones que se entienden por la misma naturaleza de las variables como aquella entre los pagos y las compras, es decir, a mayor monto de compras con las tarjetas más es el monto de pagos que realizan los usuarios. De igual forma, mientras mayor es el monto de cash advance también hay una relación positiva con la frecuencia con que se realiza el cash advance.
 
-![imagen](https://github.com/user-attachments/assets/854f9950-a1a9-4659-981d-60c9e7fb9010)
 
-
-
+![imagen](https://github.com/user-attachments/assets/9f606504-e0c5-4416-8a2a-d6608c947f4a)
 
 Se crearon cuatro variables, dos categóricas:
 
@@ -49,9 +47,6 @@ Dos continuas por su relevancia e interés en el análisis:
 - 'CREDIT_UTILIZATION_RATIO': Variable que permite identificar el ratio de crédito que está utilizando el cliente sobre el cupo disponible, ya que generalmente se considera en riesgos que si se tiene un cupo de utilización muy alto y cerca del límite se entiende como un mayor riesgo de crédito.
 
 - 'PAYMENT_RATIO': Variable que permite calcular la proporción de pagos que están haciendo los usuarios frente a su balance. Así se entiende que mientras mayor es el ratio de signfica que los usuarios están siendo resposables con los pagos que les correponden y visceversa.
-
-
-![imagen](https://github.com/user-attachments/assets/9f606504-e0c5-4416-8a2a-d6608c947f4a)
 
 ![imagen](https://github.com/user-attachments/assets/d7d0cd10-3292-40b9-8467-ed5c5eeff3c7)
 
