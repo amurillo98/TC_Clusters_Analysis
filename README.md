@@ -77,7 +77,7 @@ Cluster 2 muestra balances y límites de crédito moderados, con poca variabilid
 
 # Expliquen cómo implementarían el modelo en el negocio y justifíquenlo
 
-En el sector financiero la clusterización se utiliza para identificar patrones sospechosos de actividad fraudulentas, pudiendo agrupar las transacciones en base a criterios como la ubicación geográfica, la frecuencia y el monto para detectar actividades anómalas en el uso de tarjetas de crédito. De igual manera, al segmentarlos en grupos homogéneos les facilita la creación de estrategias marketing específicas y dirigidas a cada segmento de clientes. Al aplicar estas tácticas, las empresas pueden aumentar su lealtad y retención de clientes.
+En el sector financiero la clusterización se utiliza para identificar patrones sospechosos de actividades fraudulentas, pudiendo agrupar las transacciones en base a criterios como la ubicación geográfica, la frecuencia y el monto, para detectar actividades anómalas en el uso de tarjetas de crédito. De igual manera, al segmentarlos en grupos homogéneos les facilita la creación de estrategias marketing específicas y dirigidas a cada segmento de clientes. Al aplicar estas tácticas, las empresas pueden aumentar su lealtad y retención de clientes.
 
 # Limitaciones
 
