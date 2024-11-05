@@ -9,7 +9,7 @@ En los últimos años, el segmento de consumo y el número de tarjetahabientes h
 
 Dado este crecimiento, es esencial que las instituciones financieras analicen el perfil de los clientes con tarjeta de crédito y ofrezcan límites de crédito que se ajusten a su balance, historial de pagos, hábitos de consumo y otras variables relevantes. La creación de clusters mediante IA permite identificar patrones distintivos entre los usuarios, lo cual facilita el diseño de estrategias personalizadas para cada grupo, asegurando un tratamiento adecuado según sus características y reduciendo el riesgo de crédito de forma más efectiva.
 
-Metodología
+# Metodología
 
 ![imagen](https://github.com/user-attachments/assets/454121f4-c000-4fea-830c-5f69f455be47)
 
@@ -38,7 +38,7 @@ Existen también otro tipo de relaciones que se entienden por la misma naturalez
 
 
 
-Se crearon 4 variables en total.
+Creacion de variables
 
 Dos categóricas:
 
