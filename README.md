@@ -38,9 +38,7 @@ Existen también otro tipo de relaciones que se entienden por la misma naturalez
 
 
 
-Creacion de variables
-
-Dos categóricas:
+Se crearon cuatro variables, dos categóricas:
 
 - 'Antiguedad TC': Con el propósito de agrupar aquellos clientes con una TC de 1 año, es decir que tienen experiencia de crédito (que representa la mayoría), con 6 meses hasta menos de 12 meses distinguiéndolos como usuarios con poca experiencia y aquellos sin experiencia que son clientes nuevos con TC con una antiguedad menor a 6 meses. 
 
@@ -52,7 +50,7 @@ Dos continuas por su relevancia e interés en el análisis:
 
 - 'PAYMENT_RATIO': Variable que permite calcular la proporción de pagos que están haciendo los usuarios frente a su balance. Así se entiende que mientras mayor es el ratio de signfica que los usuarios están siendo resposables con los pagos que les correponden y visceversa.
 
-#Procesamiento de Datos
+# Procesamiento de Datos
 
 Se procedió a quitar la columna de identificación del cliente, ya que no contribuye al poder de predicción del modelo.
 
@@ -63,17 +61,14 @@ Se procedió a quitar la columna de identificación del cliente, ya que no contr
 
 Se puede ver a través de los gráficos que existe un sesgo hacia la izquierda para las tres variables que se graficaron en función a las variables categóricas creadas: Antiguedad_TC y Límite_Crédito. Si bien se observa que para Antiguedad_TC predominan los clientes determinados con experiencia, mientras que en Límite_Crédito la segmentación se encuentra mejor distribuida, si bien predominan aquellos clasificados en el segmento de límite de crédito medio.
 
-#El diagrama de cajas
+# El diagrama de cajas
 
 Muestra la distribución de Balance en las diferentes categorías de Límite_crédito, existe una relación evidente en donde mientras mayor es el límite de crédito del usuario de TC, mayor balance tendrá. Resulta interesante ver que para los rangos de "Alto" y "Muy Alto", el rango intercuartil es más amplio, lo que implica mayor variabilidad en el balance de los usuarios de aquellos grupos. De esta forma, los clientes con límites de crédito más altos (especialmente en "Muy Alto" y "Alto") podrían estar utilizando más de su crédito, lo que conlleva a que tengan balances más altos. Esto puede ser indicativo de un mayor nivel de gasto o una tendencia a mantener un balance alto en lugar de pagarlo por completo cada mes.
 
 ![imagen](https://github.com/user-attachments/assets/6976e3cc-6a95-4a06-9c5d-bffd172289e3)
 
 
-#Entrenamiento y Tuneo de Hiperparámetros
-
-
-#Interpretación de los Clusters
+# Interpretación de los Clusters
 
 Se puede concluir a partir de la segmentación realizada que:
 
@@ -88,16 +83,22 @@ Cluster 2 muestra balances y límites de crédito moderados, con poca variabilid
 ![imagen](https://github.com/user-attachments/assets/3b0d9859-fc94-4ac9-8d92-a3a5bfb77427)
 
 
-#Expliquen cómo implementarían el modelo en el negocio y justifíquenlo
+# Expliquen cómo implementarían el modelo en el negocio y justifíquenlo
 
 En el sector financiero la clusterización se utiliza para identificar patrones sospechosos de actividad fraudulentas, pudiendo agrupar las transacciones en base a criterios como la ubicación geográfica, la frecuencia y el monto para detectar actividades anómalas en el uso de tarjetas de crédito. De igual manera, al segmentarlos en grupos homogéneos les facilita la creación de estrategias marketing específicas y dirigidas a cada segmento de clientes. Al aplicar estas tácticas, las empresas pueden aumentar su lealtad y retención de clientes.
 
-#Limitaciones
-Falta de variables contextuales o demográficas que determinen el perfil del consumidor y su comportamiento de consumo. 
-El registro de datos de tenure no puede ser suficiente para aquellos clientes nuevos puesto que no cuentan con un comportamiento histórico.
+# Limitaciones
 
+1. Falta de variables contextuales o demográficas que determinen el perfil del consumidor y su comportamiento de consumo. 
+2. El registro de datos de tenure no puede ser suficiente para aquellos clientes nuevos puesto que no cuentan con un comportamiento histórico.
 
+# Conclusiones y Recomendaciones
+Las variables del dataset permitieron realizar una segmentación de aquellos clientes que han adoptado hábitos de consumos más riesgosos. Dentro de las recomendaciones se deberia mejorar la gestión del riesgo y ajustar los límites de crédito.
 
+# Future Work
+Mencionen qué cosas adicionarían o probarían para mejorar el proyecto:
+1. Incluir nuevas variables al dataset que permitan conocer mas a profundidad al cliente y con registros históricos de al menos 2 años
+2. 
 
 
 
