@@ -86,7 +86,7 @@ En el sector financiero la clusterización se utiliza para identificar patrones 
 
 # Conclusiones y Recomendaciones
 Las variables del dataset permitieron realizar una segmentación de aquellos clientes que han adoptado hábitos de consumos más riesgosos. 
-Dentro de las recomendaciones se deberia mejorar la gestión del riesgo para garantizar la rentabilidadad del banco y ajustar los límites de crédito permientiendo una mejor experiencia y salud financiera para los clientes.
+Se deberia mejorar la gestión del riesgo para garantizar la rentabilidadad del banco y ajustar los límites de crédito para garantizar una mejor experiencia y salud financiera de los clientes.
 
 
 # Future Work
