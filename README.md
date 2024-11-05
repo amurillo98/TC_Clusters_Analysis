@@ -12,6 +12,7 @@ Dado este crecimiento, es esencial que las instituciones financieras analicen el
 # Metodología
 
 Se verifica que existen 313 valores nulos, se entiende que los campos están vacios porque el cliente no ha realizado pagos mínimos; por eso se decide poner en '0'. La otra variable "credit limit" solo contiene 1 campo vacío por lo que se decide reemplazar con'0' en ambos casos.
+
 ![imagen](https://github.com/user-attachments/assets/454121f4-c000-4fea-830c-5f69f455be47)
 
 
